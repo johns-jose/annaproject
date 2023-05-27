@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
 void main(){
-  runApp(MyWidget());
+  runApp(Myapp());
 }
-class MyWidget extends StatefulWidget {
-  const MyWidget({super.key});
+class Myapp extends StatefulWidget {
+  const Myapp({super.key});
 
   @override
-  State<MyWidget>createState()=>_MyWidgetState();
+  State<Myapp>createState()=>_MyappState();
 }
 
-class _MyWidgetState extends State<MyWidget> {
+class _MyappState extends State<Myapp> {
   var dsptext ="helloworld";
   var iconclrlike = Colors.black;
   var iconclrdlike = Colors.black;

@@ -13,6 +13,7 @@ class complaint extends StatefulWidget {
 
 class _complaintState extends State<complaint> {
 String ? option;
+String ? level;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -143,10 +144,10 @@ String ? option;
                    title: Text("low"),
                    leading: Radio(
                        value: 'low',
-                      groupValue: option,
+                      groupValue: level,
                          onChanged:(String?value){
                           setState(() {
-                            option =value; 
+                            level =value; 
                           });
                         }),
                   ),
@@ -155,10 +156,10 @@ String ? option;
                    title: Text("medium"),
                    leading: Radio(
                        value: 'medium',
-                      groupValue: option,
+                      groupValue: level,
                          onChanged:(String?value){
                           setState(() {
-                            option =value; 
+                            level =value; 
                           });
                         }),
                   ),
@@ -167,10 +168,10 @@ String ? option;
                    title: Text("high"),
                    leading: Radio(
                        value: 'high',
-                      groupValue: option,
+                      groupValue: level,
                          onChanged:(String?value){
                           setState(() {
-                            option =value; 
+                            level =value; 
                           });
                         }),
                   ),

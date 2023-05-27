@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-class myapp extends StatefulWidget {
-  const myapp({super.key});
+class Myapp extends StatefulWidget {
+  const Myapp({super.key});
 
   @override
-  State<myapp> createState() => _myappState();
+  State<Myapp> createState() => _MyappState();
 }
 
-class _myappState extends State<myapp> {
+class _MyappState extends State<Myapp> {
   bool? ischecked =false;
   bool? ischecked2 =false;
   bool? ischecked3 =false;
