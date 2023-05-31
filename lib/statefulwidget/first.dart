@@ -10,7 +10,22 @@ class Myapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(),
+      home: home__page(),
     );
   }
-} 
+}
+
+
+class home__page extends StatefulWidget {
+  const home__page({super.key});
+
+  @override
+  State<home__page> createState() => _home__pageState();
+}
+
+class _home__pageState extends State<home__page> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
